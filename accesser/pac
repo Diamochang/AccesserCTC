@@ -1,17 +1,13 @@
 var domains = {
   "apkmirror.com": 1,
-  "appledaily.com": 1,
   "artstation.com": 1,
   "bbc.com": 1,
   "disqus.com": 1,
   "dropbox.com": 1,
   "dropboxapi.com": 1,
   "dropbox-dns.com": 1,
-  "dw.com": 1,
-  "e-hentai.org": 1,
-  "epochtimes.com": 1,
+  "rt.com": 1,
   "euronews.com": 1,
-  "exhentai.org": 1,
   "github.com": 1,
   "greasyfork.org": 1,
   "imgur.com": 1,
@@ -61,7 +57,11 @@ var domains = {
   "scratch.mit.edu": 1,
   "bandcamp.com": 1,
   "mastodon.social": 1,
-  "onedrive.live.com": 1
+  "onedrive.live.com": 1,
+  "sdcard.org": 1,
+  "figma.com": 1,
+  "legacyupdate.net": 1,
+  "windowsupdaterestored.com": 1
 };
 
 var shexps = {
