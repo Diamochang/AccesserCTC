@@ -64,7 +64,7 @@ nameserver = [
 "onedrive.live.com" = ["azureedge.net"]
 "*.github.com" = ["github.com", "githubassets.com", "githubusercontent.com"]
 "*.pixiv.net" = ["pixiv.net", "firebaseapp.com", "cloudfront.net", "tumblr.com"]
-
+"pan.huang1111.cn" = ["pan.huang1111.cn", "huang1111.cn", "sharepoint.com"]
 
 [hosts]
 
@@ -100,10 +100,6 @@ nameserver = [
 "count.wenxuecity.com" = "0.0.0.0"
 "adserver.wenxuecity.com" = "0.0.0.0"
 "www.dropbox.com" = "162.125.69.1"
-".appledaily.com" = "60.254.170.127"
-"e-hentai.org" = "e-hentai.org.cdn.cloudflare.net"
-".e-hentai.org" = "e-hentai.org.cdn.cloudflare.net"
-"exhentai.org" = "178.175.128.252"
 "v2ex.com" = "v2ex.com.cdn.cloudflare.net"
 ".v2ex.com" = "v2ex.com.cdn.cloudflare.net"
 "discord.com" = "discord.com.cdn.cloudflare.net"
@@ -120,10 +116,6 @@ nameserver = [
 "www.bbc.com" = "151.101.128.81"
 "disqus.com" = "151.101.64.134"
 "i.imgur.com" = "151.101.196.193"
-"i.stack.imgur.com" = "151.101.196.193"
-".theepochtimes.com" = "151.139.128.13"
-"donate.epochtimes.com" = "151.139.128.13"
-"i.epochtimes.com" = "151.139.128.13"
 "mediawiki.org" = "text-lb.codfw.wikimedia.org"
 ".mediawiki.org" = "text-lb.codfw.wikimedia.org"
 "wikipedia.org" = "text-lb.codfw.wikimedia.org"
@@ -184,3 +176,5 @@ nameserver = [
 # "singlelogin.re" = "176.123.7.252"
 # ".singlelogin.re" = "176.123.7.252"
 "greasyfork.org" = "update.greasyfork.org"
+"pan.huang1111.cn" = "waf.huang1111.cn"
+"sdcard.org" = "150.60.244.104"
