@@ -3,12 +3,13 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "accesser"
+name = "accesser-ctc-gyg"
 version = "0.10.2"
 authors = [
   { name="URenko" },
+  { name="Diamochang" },
 ]
-description = "🌏一个解决SNI RST导致维基百科、Pixiv等站点无法访问的工具 | A tool for solving SNI RST"
+description = "🌏为中国电信贵阳贵安企业/校园网量身定制的 Accesser"
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers = [
