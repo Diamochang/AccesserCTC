@@ -1,8 +1,7 @@
-# Accesser
+# Accesser 中国电信贵阳贵安定制版
 [English version](README.en.md)
 
-一个解决SNI RST导致维基百科、Pixiv等站点无法访问的工具  
-[支持的站点](https://github.com/URenko/Accesser/wiki/目前支持的站点)
+一个 [Accesser](https://github.com/URenko/Accesser) 分支，用于解决 SNI RST 导致维基百科、Pixiv 等正常境外站点和部分中国电信贵阳贵安企业/校园网络骨干网**乱阻断**的站点无法访问的问题。
 
 [![](https://img.shields.io/github/release/URenko/Accesser.svg)](https://github.com/URenko/Accesser/releases/latest)
 [![](https://img.shields.io/pypi/v/accesser)](https://pypi.org/project/accesser/)
