@@ -61,7 +61,8 @@ var domains = {
   "sdcard.org": 1,
   "figma.com": 1,
   "legacyupdate.net": 1,
-  "windowsupdaterestored.com": 1
+  "windowsupdaterestored.com": 1,
+  "pan.huang1111.cn": 1
 };
 
 var shexps = {
