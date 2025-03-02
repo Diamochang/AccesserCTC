@@ -30,6 +30,8 @@ nameserver = [
 "instagram.com/" = "www.instagram.com/"
 "nicovideo.jp/" = "www.nicovideo.jp/"
 "twitch.tv/" = "www.twitch.tv/"
+"sdcard.org/" = "www.sdcard.org/"
+"figma.com/" = "www.figma.com/"
 
 
 [alter_hostname]
@@ -116,6 +118,7 @@ nameserver = [
 "www.bbc.com" = "151.101.128.81"
 "disqus.com" = "151.101.64.134"
 "i.imgur.com" = "151.101.196.193"
+"i.stack.imgur.com" = "151.101.196.193"
 "mediawiki.org" = "text-lb.codfw.wikimedia.org"
 ".mediawiki.org" = "text-lb.codfw.wikimedia.org"
 "wikipedia.org" = "text-lb.codfw.wikimedia.org"
