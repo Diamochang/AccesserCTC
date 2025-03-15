@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Accesser
-# Copyright (C) 2018  URenko
+# Accesser for China Telecom Guiyang & Gui'an New Area
+# Copyright (C) 2018 URenko, 2025 Diamochang (Mike Wang)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-__version__ = '0.10.2'
+__version__ = '0.10.3'
 
 import os, sys
 import json
@@ -193,26 +193,26 @@ def update_checker():
         except Exception:
             logger.warning(traceback.format_exc())
     else:
-        with request.urlopen('https://github.com/URenko/Accesser/releases/latest') as f:
+        with request.urlopen('https://github.com/Diamochang/AccesserCTC/releases/latest') as f:
             v2 = Version(f.geturl().rsplit('/', maxsplit=1)[-1])
     v1 = Version(__version__)
     if v2 > v1:
-        logger.warning("There is a new version, you can update with 'python3 -m pip install -U accesser' or download from GitHub")
+        logger.warning("There is a new version, you can download it from GitHub. 检测到新版本，可至 GitHub 手动下载。")
 
 async def main():
     global context, cert_store, cert_lock, DNSresolver
-    print(f"Accesser v{__version__}  Copyright (C) 2018-2024  URenko")
+    print(f"Accesser v{__version__} for China Telecom Guiyang & Gui'an New Area  Copyright (C) 2018-2024 URenko, 2025 Diamochang (Mike Wang)")
     setting.parse_args()
 
     if setting.rules_update_case in ('old', 'missing'):
-        logger.warning("Updated rules.toml because it is %s.", setting.rules_update_case)
+        logger.warning("Updated rules.toml because it is %s. 程序自动升级/创建了规则文件 rules.toml。", setting.rules_update_case)
     elif setting.rules_update_case == 'modified':
-        logger.warning("You've already modified rules.toml, so it won't be updated automatically!")
+        logger.warning("You've already modified rules.toml, so it won't be updated automatically! 你已经手动修改了规则文件 rules.toml 的内容，因此它不会被自动更新。")
     else:
         logger.debug("rules.toml status: %s", setting.rules_update_case)
     
     if any(_keys in setting._config for _keys in setting._rules):
-        logger.warning("Some sections of config.toml overlap with rules.toml, config.toml has higher priority, but this may make rule updates ineffective.")
+        logger.warning("Some sections of config.toml overlap with rules.toml, config.toml has higher priority, but this may make rule updates ineffective. config.toml 的某些部分与 rules.toml 有重叠，config.toml 具有更高的优先级，但这可能会导致规则更新无效。")
         
     DNSresolver = dns.asyncresolver.Resolver(configure=False)
     DNSresolver.cache = dns.resolver.LRUCache()

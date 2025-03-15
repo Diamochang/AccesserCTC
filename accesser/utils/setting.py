@@ -34,8 +34,8 @@ config |= _config
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--notsetproxy', action='store_true', help='do not set system\'s pac proxy automatically')
-    parser.add_argument('--notimportca', action='store_true', help='do not import certificate to system automatically')
+    parser.add_argument('--notsetproxy', action='store_true', help='Do not set system\'s pac proxy automatically. 不自动设置系统的 PAC 代理。')
+    parser.add_argument('--notimportca', action='store_true', help='Do not import certificate to system automatically. 不自动导入证书到系统。')
     args = parser.parse_args()
     if args.notsetproxy:
         config['setproxy'] = False

@@ -12,6 +12,7 @@ nameserver = [
   "https://45.11.45.11/dns-query",
   "https://149.112.112.112/dns-query",
   "https://149.112.112.10/dns-query",
+  "https://tiarap.org/odoh",          # 这是一个 ODoH 服务器，有关这种 DoH 技术持久性的讨论参见 https://github.com/net4people/bbs/issues/459。
   "tls://149.112.112.112",            # tls://host|IP[:port]  # DNS-overTLS (DoT)
   "tls://149.112.112.10",
   "tls://dot.sb",
@@ -181,3 +182,4 @@ nameserver = [
 "greasyfork.org" = "update.greasyfork.org"
 "pan.huang1111.cn" = "waf.huang1111.cn"
 "sdcard.org" = "150.60.244.104"
+"figma.com" = "108.156.144.65"

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Accesser
-# Copyright (C) 2018  URenko
+# Accesser for China Telecom Guiyang & Gui'an New Area
+# Copyright (C) 2018 URenko, 2025 Diamochang (Mike Wang)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -108,6 +108,6 @@ def import_ca():
                 import_windows_ca()
                 return
             else:
-                logger.warning('Automatic import of root certificate root.crt is not yet supported on this platform.')
+                logger.warning('Automatic import of root certificate root.crt is not yet supported on this platform. 该平台尚不支持自动导入根证书 root.crt。')
         cm.create_root_ca()
-        logger.warning(f'You can GET root certificate from http://localhost:{setting.config["server"]["port"]}/CERT/root.crt and import it manually.')
+        logger.warning(f'You can GET root certificate from http://localhost:{setting.config["server"]["port"]}/CERT/root.crt and import it manually. 你可以从 http://localhost:{setting.config["server"]["port"]}/CERT/root.crt 获取证书并手动导入它。')

@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "accesser-ctc-gyg"
-version = "0.10.2"
+version = "0.10.3"
 authors = [
   { name="URenko" },
   { name="Diamochang" },
 ]
-description = "🌏为中国电信贵阳贵安企业/校园网量身定制的 Accesser"
+description = "🌏为中国电信贵阳贵安校园网量身定制的 Accesser"
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers = [
@@ -33,7 +33,7 @@ doq = ["dnspython[doq]"]
 accesser = "accesser:run"
 
 [project.urls]
-"Homepage" = "https://github.com/URenko/Accesser"
+"Homepage" = "https://github.com/Diamochang/AccesserCTC"
 "Bug Tracker" = "https://github.com/URenko/Accesser/issues"
 
 [tool.setuptools.package-data]

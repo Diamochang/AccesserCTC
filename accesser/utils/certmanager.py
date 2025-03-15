@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Accesser
-# Copyright (C) 2018  URenko
+# Accesser for China Telecom Guiyang & Gui'an New Area
+# Copyright (C) 2018 URenko, 2025 Diamochang (Mike Wang)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
