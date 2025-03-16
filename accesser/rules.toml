@@ -183,3 +183,5 @@ nameserver = [
 "pan.huang1111.cn" = "waf.huang1111.cn"
 "sdcard.org" = "150.60.244.104"
 "figma.com" = "108.156.144.65"
+"legacyupdate.net" = "legacyupdate.net.cdn.cloudflare.net"
+"windowsupdaterestored.com" = "51.178.29.117"

@@ -6,7 +6,6 @@ var domains = {
   "dropbox.com": 1,
   "dropboxapi.com": 1,
   "dropbox-dns.com": 1,
-  "rt.com": 1,
   "euronews.com": 1,
   "github.com": 1,
   "greasyfork.org": 1,
